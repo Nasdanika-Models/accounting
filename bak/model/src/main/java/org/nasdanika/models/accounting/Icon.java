@@ -5,8 +5,8 @@ import org.eclipse.emf.ecore.EObject;
 
 public enum Icon {
 	
-    DOCUMENT(AccountingPackage.Literals.ACCOUNT, "account.svg");
-
+    ACCOUNT(AccountingPackage.Literals.ACCOUNT , "TODO");
+	
     private static final String BASE_URL = "https://accounting.models.nasdanika.org/images/";
 
     private final String url;

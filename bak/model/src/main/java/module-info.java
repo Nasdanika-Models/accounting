@@ -7,7 +7,9 @@ module org.nasdanika.models.accounting {
 	exports org.nasdanika.models.accounting.impl;
 	exports org.nasdanika.models.accounting.util;
 	
-	requires transitive org.nasdanika.models.lifecycle;
+	requires transitive org.eclipse.emf.ecore;
+	requires transitive org.eclipse.emf.common;
+	requires transitive org.nasdanika.capability;
 	
 	provides CapabilityFactory with 
 		AccountingEPackageResourceSetCapabilityFactory;

@@ -1,2 +1,3 @@
-# accounting
-Model/file based accounting
+# Accounting Model
+
+See https://accounting.models.nasdanika.org/

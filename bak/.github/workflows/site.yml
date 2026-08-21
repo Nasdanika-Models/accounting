@@ -41,13 +41,12 @@ jobs:
           chmod u+x nsd          
           pwd
           ls ..
-          ./nsd xcore ../model/src/main/resources/org/nasdanika/models/accounting/accounting.xcore doc --diagram=accounting.drawio --doc-stubs --doc-dir=../model/doc save ../model/accounting.xmi
+          ./nsd xcore ../model/model/accounting.xcore doc --diagram=accounting.drawio --doc-stubs --doc-dir=../model/doc save ../model/accounting.xmi
       - name: Generate Ecore site
         working-directory: nsd-cli
         run: |
-          ./nsd model ../model/root-action.yml labels site -r=-1 -F ../model/page-template.yml -m https://accounting.models.nasdanika.org ../docs
+          ./nsd model ../model/root-action.yml labels site -r=-1 -F ../model/page-template.yml ../docs
           cp accounting.drawio ../docs
-          cp ../model/src/main/resources/org/nasdanika/models/accounting/accounting.xcore ../docs
           cp -R ../images ../docs
           zip -r ../docs/doc-stubs.zip ../model/doc
           ls ../docs

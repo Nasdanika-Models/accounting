@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.models.accounting</groupId>
 	<artifactId>parent</artifactId>
-	<version>2026.8.0</version>
+	<version>2026.6.0</version>
 	<packaging>pom</packaging>
-	<name>Nasdanika Accounting Model</name>
-	<description>Accounting model, resource and resource factory</description>
+	<name>Nasdanika Accounting</name>
+	<description>Accounting model</description>
 	<url>https://accounting.models.nasdanika.org/</url>
 
 	<licenses>
