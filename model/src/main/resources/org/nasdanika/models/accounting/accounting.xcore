@@ -1,7 +1,7 @@
 @Ecore(nsURI="https://accounting.models.nasdanika.org", nsPrefix="org.nasdanika.models.accounting")
 @GenModel(
     featureDelegation="Dynamic",
-    complianceLevel="21.0",
+    complianceLevel="21",
     suppressGenModelAnnotations="false",
     copyrightFields="false",
     operationReflection="true",
